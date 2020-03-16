@@ -22,7 +22,7 @@ Estrutura Html
 <header></header>		-----> cabeçalhos
 <p></p> 			-----> separa paragrafo
 
-<img src=" ">			-----> invoca uma imagem
+/*<img src=" ">*/			-----> invoca uma imagem
 
 <div></div>			-----> cria divisão
 
