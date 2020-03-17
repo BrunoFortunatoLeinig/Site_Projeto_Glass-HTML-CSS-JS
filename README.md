@@ -20,7 +20,7 @@ Estrutura Html
 <header></header>		-----> cabeçalhos
 <p></p> 			-----> separa paragrafo
 
-//<img src=" ">			-----> invoca uma imagem
+<img src=" ">			-----> invoca uma imagem
 
 <div></div>			-----> cria divisão
 
@@ -71,4 +71,4 @@ Comando color rgba(0, 0, 0, 0) 		------> onde o ultimo 0 é o nível de transpar
 rowspan="2"			----->usado para que a célula da tabela ocupe duas linhas
 colspan=”2”			----->usado para que a célula da tabela ocupe duas colunas
 
-
+<article></article>	------> usado para separar coisas dentro da tag como se fossem artigos
