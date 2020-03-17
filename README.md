@@ -1,5 +1,3 @@
-# HTML-5
-
 Estrutura Html
 
 <!DOCTYPE html>
@@ -22,7 +20,7 @@ Estrutura Html
 <header></header>		-----> cabeçalhos
 <p></p> 			-----> separa paragrafo
 
-/*<img src=" ">*/			-----> invoca uma imagem
+//<img src=" ">			-----> invoca uma imagem
 
 <div></div>			-----> cria divisão
 
@@ -61,3 +59,16 @@ Comando color rgba(0, 0, 0, 0) 		------> onde o ultimo 0 é o nível de transpar
 <ol></ol>    ---> OL: ordered list 	-------> cria uma lista ordenada podendo ser numérico, alfabético ou em algarismos romanos
 <ul></ul>    ---> UL: unordered list	-------> cria uma lista não ordenada também chamada de lista com demarcadores, square --> quadrados, circle --> bolinha com fundo branco, disc --> bolinha preta
 <li></li>    --->   Li: list items	-------> lista de itens
+
+<section></section>		----> usado para dividir a pagina seção
+<aside></aside>		----> usado para dividir a pagina lateral
+<footer></footer>		----> usado para dividir a pagina rodapé
+
+<table></table> 		----->usado para criar tabelas
+<caption></caption>		----->usado para criar separar o título da tabela
+<tr></tr> 	--->(Table row) 		----->usado para criar um “título dentro de uma tabela”
+<td></td>	--->(Table data)		----->usado para os dados que compõem a tabela”
+rowspan="2"			----->usado para que a célula da tabela ocupe duas linhas
+colspan=”2”			----->usado para que a célula da tabela ocupe duas colunas
+
+
