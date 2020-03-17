@@ -1,4 +1,5 @@
 @charset "utf-8";
+/*colocando fonte de fora*/
 /*Formatações em CSS3*/
 /*formatação de corpo do site*/
 body{
@@ -9,24 +10,55 @@ body{
 
 /*formatação da interface */
 div#interface{
-	width: 900px;
+	width: 1150px;
 	background-color: white;
-	margin: -20px/*<-cima*/ auto/*<-direita*/ 0px/*<-baico*/ auto;/*<-esquerda*/
+	margin: -30px/*<-cima*/ auto/*<-direita*/ 0px/*<-baixo*/ auto;/*<-esquerda*/
 	box-shadow: 0px/*<- deslocamento lateral*/ 0px/*<-deslocamento vertical*/ 10px/*espalhamento*/ rgba(0,0,0,0.5);
 	padding: 10px;
 }
 
 /*formatação de paragrafo*/
 p{
-			text-align: justify;
-			text-indent: 50px;
+	text-align: justify;
+	text-indent: 50px;
 }
 
 /*formatação da imagem oculos preto pequeno*/
 header#cabecalho img#icone{
 	position: absolute;
-	left: 780px;
-	top: 40px;
+	left: 1100px;
+	top: 70px;
+}
+
+/*formatação dos titulos de cabeçalho*/
+header#cabecalho h1{
+	font-family: 'Bubblegum Sans', cursive;
+	font-size: 30pt;
+	color: #606060;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+	padding:0;
+	margin-bottom: 0px;
+}
+
+header#cabecalho h2{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15pt;
+	color: #888888;
+	padding:0;
+	margin-top: 0px;
+}
+
+/*formatação do cabeçalho*/
+header#cabecalho{
+	border-bottom: 1px #606060 solid;
+	height: 150px;
+}
+
+/*formatação da logo*/
+img#logo{
+	position: absolute;
+	top: 110px;
+	left: 100px;
 }
 
 /*formatação de legenda de imagem */
@@ -55,7 +87,7 @@ figure.foto-legenda figcaption {
 }
 
 figure.foto-legenda:hover figcaption{
-	opacity: 1
+	opacity: 1;
 }
 
 /*formatação do menu*/
@@ -69,7 +101,7 @@ nav#menu ul{
 	text-transform: uppercase;
 	position: absolute;
 	top: -20px;
-	left: 715px;
+	left: 638px;
 }
 
 nav#menu li{
@@ -96,4 +128,74 @@ nav#menu a {
 nav#menu a:hover{
 	color: #ffffff;
 	text-decoration: underline;
+}
+
+/*formatação das tags section, aside, footer*/
+section#corpo{
+	display: block;
+	width: 600px;
+	float: left;
+	border-right: 1px #606060 solid;
+	padding-right: 25px;
+}
+
+/*formatação da tabela de especificações*/
+table#tabela{
+	border: 1px #606060 solid;
+	border-spacing: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+table#tabela td {
+	border: 1px #606060 solid;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table#tabela td.ce {
+	color: #ffffff;
+	background-color: #606060;
+	vertical-align: top;
+	font-weight: bold;
+	text-align: right;
+}
+
+table#tabela td.cd {
+	background-color: #cecece;
+	text-align: left;
+}
+
+table#tabela caption {
+	color: #888888;
+	font-size:13pt;
+	font-weight: bolder;
+}
+
+table#tabela caption span {
+	display: block;
+	float: right;
+	color: #000000;
+	font-size: 8pt;
+	margin-top: 10px;
+}
+
+
+/*continuação da formatação das tags section, aside, footer*/
+aside#lateral{
+	display: block;
+	width: 490px;
+	float: right;
+}
+
+footer#rodape{
+	clear: both;
+	border-top: 1px #606060 solid;
+}
+
+footer#rodape p{
+	text-align: center;
+	margin-bottom:0px;
 }
