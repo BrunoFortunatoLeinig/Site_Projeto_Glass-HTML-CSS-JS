@@ -1,4 +1,5 @@
-Estrutura Html
+Estrutura e comandos HTML-5
+
 
 <!DOCTYPE html>
 <html lang="pt-br">             	      ----->   Usado para deixar em pt-br
@@ -72,3 +73,17 @@ rowspan="2"			----->usado para que a célula da tabela ocupe duas linhas
 colspan=”2”			----->usado para que a célula da tabela ocupe duas colunas
 
 <article></article>	------> usado para separar coisas dentro da tag como se fossem artigos
+
+
+
+FUNÇÕES JAVA SCRIPT
+
+<script></script>	----> tudo que está entre essa função é considerado código java script
+EXEMPLO
+	<script>
+		document.write("Hoje é dia " + Date());
+	</script> 	----> mostra a o texto e invoca a função de hora direto do sistema.
+
+onclick="” 		------> comando para uma determinada ação quando clicar.
+onmousemove="” 	------> comando para uma determinada ação quando passar o mouse
+function		------> cria uma função para ser invocada
