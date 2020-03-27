@@ -36,6 +36,17 @@ Estrutura e comandos HTML-5
 Style=”text-align: justfy”	--------> justifica o texto
 Style=”text-align: center”	--------> centraliza o texto
 
+<form></form>   ------> usado para formulários
+Post  ------>  não faz parte do objeto é mais lento e mais seguro
+Get  ------>  parte do objeto é mais rápido menos seguro
+Method=”^get OU post” ^^^^ método usado para resgatar as repostas do formulários e envia-las
+
+<input></input> ------> usado para criar uma caixa seja texto/numero/data/senha....
+<fieldset><fieldset> ------> usado para criar campos para um formulário
+
+<legend></legends>  ------> usado para deixar um titulo para o fieldset
+
+<label></label> ------> usado para referenciar um objeto ou botão
 
 <style>
 p{
@@ -73,6 +84,11 @@ rowspan="2"			----->usado para que a célula da tabela ocupe duas linhas
 colspan=”2”			----->usado para que a célula da tabela ocupe duas colunas
 
 <article></article>	------> usado para separar coisas dentro da tag como se fossem artigos
+
+<select></select>		----->usado para criar uma cadeia de seleção
+<option></option>		----->usado para criar opções dentro da seleção
+<optgroup></optgroup> 	----->usado para criar um grupo de opções
+
 
 
 
