@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/*formatação do video e música*/
+
+div#tv-radio{
+	width: 900px;
+	height: 580px;
+	margin: auto;
+	background: url(file:///C:/Users/brunofortunato/Documents/sublime%20dados/curso-html5-pacote01/projeto-glass-html5/_imagens/radio-tv.png) no-repeat;
+}
+
+audio#musica{
+	display: block;
+	position: relative;
+	left: 568px;
+	top: 490px;
+	width: 310px;
+}
+
+video#filme{
+	display: block;
+	position: relative;
+	left: 88px;
+	top: 65px;
+	width: 440px;
+}
